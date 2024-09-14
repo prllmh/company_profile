@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .nav-link {
+        color: rgb(150, 7, 7);
+        font-weight: bold;
+      }
+
+      .navbar {
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(
+          0,
+          128,
+          255,
+          0.5
+        ); /* Adjust the alpha value as needed */
+        z-index: 1000; /* Adjust the z-index to ensure it appears above other elements */
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- Navigation -->
+      <nav
+        class="navbar navbar-expand-lg"
+        style="background-color: rgba(215, 235, 255, 0.571) !important"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#safety">Safety</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">About Us</h2>
+        <!-- Company Logo -->
+        <div class="text-center mb-4">
+          <img
+            src="logo.png"
+            style="max-width: 200px"
+            alt="Company Logo"
+            class="img-fluid"
+            style="max-width: 150px"
+          />
+        </div>
+        <!-- Company Description -->
+        <p>
+          Our company is dedicated to providing top-notch services and solutions
+          in the industry. With years of experience, we are committed to
+          excellence and innovation. We have been recognized for our outstanding
+          contributions and have achieved numerous milestones that set us apart
+          in the industry.
+        </p>
+
+        <!-- Achievements -->
+        <h3 class="mt-4">Our Achievements</h3>
+        <ul>
+          <li>
+            Awarded as the Best Industry Innovator in 2023 by XYZ Organization.
+          </li>
+          <li>
+            Successfully completed over 500 projects worldwide with exceptional
+            client satisfaction.
+          </li>
+          <li>ISO 9001:2015 certified for quality management systems.</li>
+          <li>
+            Partnered with leading global firms to expand our reach and
+            services.
+          </li>
+        </ul>
+
+        <!-- Vision and Mission -->
+        <h3 class="mt-4">Vision</h3>
+        <p>
+          To be the leading provider of innovative solutions in our industry,
+          delivering excellence and value to our customers worldwide.
+        </p>
+
+        <h3 class="mt-4">Mission</h3>
+        <ul>
+          <li>
+            To continuously innovate and improve our products and services to
+            meet the evolving needs of our customers.
+          </li>
+          <li>
+            To foster a culture of excellence, integrity, and teamwork within
+            our organization.
+          </li>
+          <li>
+            To contribute positively to the communities in which we operate and
+            promote sustainable business practices.
+          </li>
+          <li>
+            To build long-term relationships with our clients through
+            outstanding service and support.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; Copyright 2024 PT.SBU.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

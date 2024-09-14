@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .background-container {
+        background-image: url('bg.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Adjust height as needed */
+      } 
+
+      .nav-link {
+        color: rgb(150, 7, 7);font-weight: bold;
+      }
+
+      .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 128, 255, 0.5); /* Adjust the alpha value as needed */
+        z-index: 1000; /* Adjust the z-index to ensure it appears above other elements */
+      }
+    </style>
+  </head>
+  <body>
+    <div  class="background-container">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg" style="background-color: rgba(215, 235, 255, 0.571) !important;">
+      <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#safety">Safety</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section
+      id="home"
+      class="d-flex align-items-center"
+      style="
+        background: url('bg.jpg') no-repeat center center/cover;
+        height: 80vh;
+      "
+    >
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4" style="background-color: rgba(215, 235, 255, 0.571) !important;">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="footer-logo" style="margin-right: 60px">
+          <img src="Logo PTSBU.png" alt="Company Logo" style="max-width: 700px" />
+          </div>
+        <div class="footer-description" style="color: rgb(94, 44, 0) !important;font-weight:550;font-size: 90%; text-align: justify;">
+          <p>
+            We try our best to help complete your project and material by
+            planning, organizing, directing, coordinating, and supervising the
+            activities in the project in such a way that the project and
+            material is completed according to the spesifications, time
+            schedule, and budget that have been set
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+  </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">About Us</h2>
+        <!-- Company Logo -->
+        <div class="text-center mb-4">
+          <img
+            src="logo.png"
+            style="max-width: 200px"
+            alt="Company Logo"
+            class="img-fluid"
+            style="max-width: 150px"
+          />
+        </div>
+        <!-- Company Description -->
+        <p>
+          Our company is dedicated to providing top-notch services and solutions
+          in the industry. With years of experience, we are committed to
+          excellence and innovation. We have been recognized for our outstanding
+          contributions and have achieved numerous milestones that set us apart
+          in the industry.
+        </p>
+
+        <!-- Achievements -->
+        <h3 class="mt-4">Our Achievements</h3>
+        <ul>
+          <li>
+            Awarded as the Best Industry Innovator in 2023 by XYZ Organization.
+          </li>
+          <li>
+            Successfully completed over 500 projects worldwide with exceptional
+            client satisfaction.
+          </li>
+          <li>ISO 9001:2015 certified for quality management systems.</li>
+          <li>
+            Partnered with leading global firms to expand our reach and
+            services.
+          </li>
+        </ul>
+
+        <!-- Vision and Mission -->
+        <h3 class="mt-4">Vision</h3>
+        <p>
+          To be the leading provider of innovative solutions in our industry,
+          delivering excellence and value to our customers worldwide.
+        </p>
+
+        <h3 class="mt-4">Mission</h3>
+        <ul>
+          <li>
+            To continuously innovate and improve our products and services to
+            meet the evolving needs of our customers.
+          </li>
+          <li>
+            To foster a culture of excellence, integrity, and teamwork within
+            our organization.
+          </li>
+          <li>
+            To contribute positively to the communities in which we operate and
+            promote sustainable business practices.
+          </li>
+          <li>
+            To build long-term relationships with our clients through
+            outstanding service and support.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Products</h2>
+        <p class="text-center">
+          Explore our range of products designed to meet your needs. We offer
+          high-quality, reliable, and innovative solutions.
+        </p>
+        <div class="row">
+          <!-- Product 1 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="gbr1.png" class="card-img-top" alt="Product 1" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Product Name 1</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Product 2 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="gbr2.png" class="card-img-top" alt="Product 2" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Product Name 2</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Product 3 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="gbr3.png" class="card-img-top" alt="Product 3" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Product Name 3</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="gbr4.png" class="card-img-top" alt="Product 4" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Product Name 4</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Product 5 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="gbr5.png" class="card-img-top" alt="Product 5" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Product Name 5</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Product 6 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="gbr6.png" class="card-img-top" alt="Product 6" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Product Name 6</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Product 7 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="gbr7.png" class="card-img-top" alt="Product 7" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Product Name 7</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Product 8 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="gbr8.png" class="card-img-top" alt="Product 8" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Product Name 8</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Projects</h2>
+        <p>
+          Take a look at some of our recent projects. We pride ourselves on
+          delivering successful outcomes for our clients.
+        </p>
+        <!-- Add project cards or details here -->
+      </div>
+    </section>
+
+    <!-- Safety Section -->
+    <section id="safety" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Safety</h2>
+        <p>
+          Safety is our top priority. We adhere to the highest standards of
+          safety practices to ensure the well-being of our team and clients.
+        </p>
+        <!-- Add safety protocols or certifications here -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <p class="text-center">
+          If you have any questions or would like to work with us, please get in
+          touch.
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form action="submit_form.php" method="post">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  required
+                  />
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input
+                    type="number"
+                    id="phone"
+                    name="phone"
+                    class="form-control"
+                    required
+                    />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message
+                        <textarea
+                          id="message"
+                          name="message"
+                          rows="4"
+                          class="form-control"
+                          required
+                  </div>
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark btn-block">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; Copyright 2024 PT.SBU.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
