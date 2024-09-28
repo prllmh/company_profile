@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PTSBU</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .background-container {
+        background-image: url("bgptsbu.png");
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Adjust height as needed */
+      }
+
+      .nav-link {
+        color: rgb(150, 7, 7);
+        font-weight: bold;
+      }
+
+      .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(
+          0,
+          128,
+          255,
+          0.5
+        ); /* Adjust the alpha value as needed */
+        z-index: 1000; /* Adjust the z-index to ensure it appears above other elements */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background-container">
+      <!-- Navigation -->
+      <nav
+        class="navbar navbar-expand-lg"
+        style="background-color: rgba(215, 235, 255, 0.571) !important"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="project.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#safety">Safety</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Products Section -->
+    <section id="products" class="py-5 bg-light" style="margin-top: 50px;" >
+      <div class="container">
+        
+          <h2 class="text-center mb-4">Our Project</h2>
+          <p class="text-center">
+            Explore our range of products designed to meet your needs. We offer
+            high-quality, reliable, and innovative solutions.
+          </p>
+          <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card">
+                <img src="IGS.png" class="card-img-top" alt="Product 1" />
+                <div class="card-body text-center">
+                  <a href="project-1.html"><h5 class="card-title">Ignition System</h5></a>
+                </div>
+              </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="card">
+                <img src="VT.png" class="card-img-top" alt="Product 2" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Vessel and Tank</h5>
+                </div>
+              </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="card">
+                <img src="GLFD.png" class="card-img-top" alt="Product 3" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Gas Leak Fire Detector</h5>
+                </div>
+              </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="card">
+                <img src="PTO.png" class="card-img-top" alt="Product 4" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Power Take Off</h5>
+                </div>
+              </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="card">
+                <img src="IV.png" class="card-img-top" alt="Product 5" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Instrument Valve</h5>
+                </div>
+              </div>
+            </div>
+            <!-- Product 6 -->
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="card">
+                <img src="AC.png" class="card-img-top" alt="Product 6" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Air Compressor</h5>
+                </div>
+              </div>
+            </div>
+            <!-- Product 7 -->
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="card">
+                <img src="FI.png" class="card-img-top" alt="Product 7" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Fitting Instrument</h5>
+                </div>
+              </div>
+            </div>
+            <!-- Product 8 -->
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="card">
+                <img src="PE.png" class="card-img-top" alt="Product 8" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Panel Electrical</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; Copyright 2024 PT.SBU.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
